@@ -1,0 +1,9 @@
+
+INSERT INTO notification (channel, contact, first_name, last_name, priority) VALUES ('EMAIL', 'devesh.ase@gmail.com','DEVESH','KUMAR','HIGH');
+INSERT INTO notification (channel, contact, first_name, last_name, priority) VALUES ('EMAIL', 'devesh.ase1@gmail.com','BRIAN','SMITH','LOW');
+INSERT INTO notification (channel, contact, first_name, last_name, priority) VALUES ('EMAIL', 'devesh.ase2@gmail.com','TAYLOR','SMITH','HIGH');
+INSERT INTO notification (channel, contact, first_name, last_name, priority) VALUES ('EMAIL', 'devesh.ase3@gmail.com','MARY','ANN','LOW');
+INSERT INTO notification (channel, contact, first_name, last_name, priority) VALUES ('EMAIL', 'devesh.ase4@gmail.com','DEVESH','KUMAR','HIGH');
+INSERT INTO notification (channel, contact, first_name, last_name, priority) VALUES ('SMS', '301-543-9899','HENRY','OSCAR','HIGH');
+INSERT INTO notification (channel, contact, first_name, last_name, priority) VALUES ('SMS', '301-543-9898','','SMITH','HIGH');
+INSERT INTO notification (channel, contact, first_name, last_name, priority) VALUES ('SMS', '301-543-9897','MARY','ANN','HIGH');

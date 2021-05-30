@@ -1,0 +1,14 @@
+version: "3.2"
+services:
+  rabbitmq:
+    image: rabbitmq:3.8.16-management
+    container_name: 'arborsrabbit'
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - ~/Working/docker/rabbitmq/data/:/var/lib/rabbitmq/
+      - ~/Working/docker/rabbitmq/log/:/var/log/rabbitmq/
+    environment:
+      RABBITMQ_DEFAULT_USER: deva
+      RABBITMQ_DEFAULT_PASS: 123
