@@ -5,10 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"com.app.dkc.jmsc"})
 @SpringBootApplication
 @EnableCaching
-public class WebhookApplication {
+public class AppLauncher {
 
 	//static final String topicExchangeName = "spring-boot-exchange";
 
@@ -47,7 +46,7 @@ public class WebhookApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(WebhookApplication.class, args);
+		SpringApplication.run(AppLauncher.class, args);
 
 	}
 

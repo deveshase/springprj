@@ -1,3 +1,4 @@
 # Project exclude paths
 /jmscaffeine/target/
-/springwebclient/target/
+/.idea/
+/jmscaffeine/src/main/resources/h2/

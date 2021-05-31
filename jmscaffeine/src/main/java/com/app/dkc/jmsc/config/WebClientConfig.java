@@ -1,4 +1,4 @@
-package com.app.dkc.wclient.config;
+package com.app.dkc.jmsc.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
